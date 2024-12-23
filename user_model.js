@@ -28,7 +28,7 @@ const userSchema = new mongoose.Schema({
         default: true
     }
 }, {
-    collection: "User",
+    collection: "users",
     timestamps: true
 });
 
